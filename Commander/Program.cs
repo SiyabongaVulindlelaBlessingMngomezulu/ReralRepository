@@ -21,6 +21,10 @@ namespace Commander
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+          });
+
+        public static void Flat() { 
+        
+        }
     }
 }
