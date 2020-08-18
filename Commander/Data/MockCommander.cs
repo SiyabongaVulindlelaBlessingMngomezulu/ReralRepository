@@ -19,6 +19,10 @@ namespace Commander.Data{
 
         public Command GetCommandById(int id){
             return new Command(){Id =id, HowTo ="Boil an egg", Line= "Boil water", Platform = "Kettle & pan"};
-        } 
+        }
+
+        public static void duUMockMe() { 
+        
+        }
     }
 }
